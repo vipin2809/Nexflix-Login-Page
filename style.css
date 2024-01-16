@@ -1,0 +1,460 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+/* Header **************** */
+.back-img{
+    height: 700px;
+    background-image: url(IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    z-index: -1;
+    background-size:cover;
+}
+.image img{
+    
+    height: 100px;
+    width: 240px;
+}
+.image{
+    width: 45%;
+}
+/* .container{
+
+    background-color: #00000066;
+    z-index: 2;
+} */
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color: #00000092;
+    align-items: center;
+    z-index: 3;
+    height: 20%;
+    
+}
+
+
+.selectopt{
+    width: 126px;
+    height:32px ;
+    /* width: 100%; */
+    border: 1px solid rgb(65, 57, 57);
+    color: white;
+    background-color: #00000092;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+.submit{
+    width: 100px;
+    text-align: center;
+    padding: 4px 16px;
+}
+.submit button{
+    height: 32px;
+    width: 70px;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    
+}
+.headContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #00000092;
+    align-items: center;
+    justify-content:center;
+    height: 80%;
+}
+.one h1{
+    font-size: 48px;
+}
+.two p{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.three p{
+    margin-top: 16px;
+    font-size: 20px;
+}
+.four{
+    display: flex;
+    margin-top: 16px;
+
+}
+.x input{
+    height: 50px;
+    border: none;
+    width: 376px;
+    border-radius: 4px;
+    color: white;
+    background-color: #1010109f;
+    border: 1px solid rgb(55, 51, 51);
+    padding-left: 8px;
+    font-size: 1.5rem;
+}
+.y button{
+    height: 50px;
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #E50914;
+    border: none;
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+/* Main ***************8 */
+.first{
+    height: 430px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    border-top:8px solid #222322;
+
+}
+.content-first{
+    width: 35%;
+}
+.image-first{
+    width: 35%;
+}
+.first .image-first img{
+    width: 100%;
+}
+.content-first h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    width: 100%;
+}
+.content-first p{
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 16px ;
+
+}
+
+.second{
+    height: 430px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    border-top:8px solid #222322;
+}
+.content-second{
+    width: 35%;
+}
+.image-second{
+    width: 35%;
+}
+.second .image-second img{
+    width: 100%;
+}
+.content-second h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+.content-second p{
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 16px ;
+
+}
+
+.third{
+    height: 430px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    border-top:8px solid #222322;
+}
+.content-third{
+    width: 35%;
+}
+.image-third{
+    width: 35%;
+}
+.third .image-third img{
+    width: 100%;
+}
+.content-third h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+.content-third p{
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 16px ;
+}
+
+.forth{
+    height: 430px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0px;
+    border-top:8px solid #222322;
+}
+.content-forth{
+    width: 35%;
+}
+.image-forth{
+    width: 35%;
+}
+.forth .image-forth img{
+    width: 100%;
+}
+.content-forth h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+.content-forth p{
+    font-size: 1.5rem;
+    width: 100%;
+    padding-top: 16px ;
+}
+
+.five{
+    height: 750px;
+    background-color: black;
+    border-top:8px solid #222322;
+    padding: 75px 0px 120px 0px;
+}
+.five h1{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button p{
+    font-size: 1.8rem;
+}
+.five button{
+    background-color: #222322;
+    color: white;
+    width: 60%;
+    height: 84px;
+    padding: 24px;
+    margin-bottom:8px ;
+    border: none;
+    border-radius: 4px;
+}
+.in-button{
+    display: flex;
+    align-items: center;
+    
+}
+.in-button p{
+    width: 90%;
+    text-align: left;
+}
+#x{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-top:15px ;
+}
+#hello{
+    width: 376px;
+    height: 56px;
+    font-size: 24px;
+    background-color: #E50914;
+    padding-bottom: 0px;
+    position: relative;
+    top: 2px;
+}
+#hello p{
+    position: relative;
+    bottom: 10px;
+}
+#moto{
+    height: 50px;
+    width: 45%;
+    border: none;
+    border-radius: 4px;
+    background-color: #4540405f;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+.remaining{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    border-top:8px solid #222322;
+}
+.foot{
+    border-top:10px solid #222322;
+    background-color: black;
+    height:300px;
+    color: #949b94;
+    margin: 0px 172px;
+    padding: 60px 0px;
+}
+.fir a{
+    color: #949b94;
+}
+.tag-1 a{
+    display: block;
+}
+.lots-of-tags{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.lots-of-tags a{
+    color: #949b94;
+    padding: 10px;
+}
+/* For more dynamic website */
+@media screen and (max-width:545px)
+{
+    .headContent .four{
+        display: flex;
+        justify-content:space-around;
+    }
+    .x{
+        width: 50%;
+    }
+    .x input{
+        height: 50px;
+        border: none;
+        width: 100%;
+        border-radius: 4px;
+        color: white;
+        background-color: #1010109f;
+        border: 1px solid rgb(55, 51, 51);
+        padding-left: 8px;
+        font-size: 0.8em;
+    }
+    .y{
+        width:50% ;
+    }
+    .y button{
+        height: 50px;
+        width: 100%;
+        margin-left: 30px;
+        font-size: 1em;
+        font-weight: 700;
+        color: white;
+        background-color: #E50914;
+        border: none;
+        border-radius: 4px;
+        padding-left: 2px;
+        padding-right: 4px;
+    }
+    .common h1{
+        font-size: 1.5em;
+        font-weight: 700;
+        width: 100%;
+    }
+    .common p{
+        font-size: 0.85em;
+        width: 100%;
+        padding-top: 16px ;
+    
+    }
+    .first{
+        height: 300px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* padding: 40px 0px; */
+        border-top:8px solid #222322;
+    
+    }
+    .pad{
+        height: 300px;
+        padding: 40px 0px;
+    }
+    button p{
+        font-size: 1.8em;
+    }
+    .five button{
+        width: 90%;
+    }
+    #hello p{
+        position: relative;
+        bottom: 10px;
+        
+    }
+    #hello{
+        width: 45%;
+        height: 56px;
+        font-size: 0.7em;
+        background-color: #E50914;
+        padding-bottom: 0px;
+        position: relative;
+        top: 2px;
+    }
+    #moto{
+        height: 50px;
+        width: 45%;
+        border: none;
+        border-radius: 4px;
+        background-color: #4540405f;
+        border: 1px solid white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-left: 5px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .foot{
+        border-top:10px solid #222322;
+        background-color: black;
+        height:830px;
+        color: #949b94;
+        /* margin: 0px 172px; */
+        padding: 60px 0px;
+    }
+    .lots-of-tags{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width: 100%;
+
+    }
+    .image img{
+    
+    height: 100px;
+    width: 183px;
+}
+}
